@@ -25,4 +25,8 @@ spr_feet   = -1;
 moveX = 0;
 moveY = 0;
 
+// Dialogue
+dialogue = "I have not defined dialogue yet."
+myTextbox = noone;
+
 alarm[1] = 1;
