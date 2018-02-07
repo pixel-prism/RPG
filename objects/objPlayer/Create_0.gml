@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Set the speeds
-W_spd = 4;
+W_spd = 2;
 R_spd = 6;
 
 // Sprite frames
@@ -18,3 +18,11 @@ spr_hair =spr_Hair_Male_1;
 spr_shirt =spr_Shirt_Female_1;
 spr_legs =spr_Legs_Female_1;
 spr_feet =spr_Feet_Female_1;
+
+horMiddle = -1;
+verMiddle = -1;
+
+myTextbox = noone;
+dialogue = "Dialogue not set.";
+pause = false;
+page = 0;

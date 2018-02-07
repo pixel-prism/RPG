@@ -9,3 +9,6 @@ room_goto_next();
 
 // Debug Mode
 debug = false;
+
+// Ability to pause movement for events
+var pause = false

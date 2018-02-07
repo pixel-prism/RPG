@@ -26,7 +26,10 @@ moveX = 0;
 moveY = 0;
 
 // Dialogue
+horMiddle = -1
+verMiddle = -1
 dialogue = "I have not defined dialogue yet."
 myTextbox = noone;
+pause = false;
 
 alarm[1] = 1;
