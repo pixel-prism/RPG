@@ -24,7 +24,9 @@ if(moveY != 0){
 }
 
 // Apply movement
-if(!pause){
+if(!game.pause){
 	x += moveX;
 	y += moveY;
 }
+
+depth = 1000 - y;

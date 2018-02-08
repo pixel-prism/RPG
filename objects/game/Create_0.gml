@@ -11,4 +11,4 @@ room_goto_next();
 debug = false;
 
 // Ability to pause movement for events
-var pause = false
+pause = false

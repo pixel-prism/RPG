@@ -6,11 +6,19 @@ var frame_size = 64;
 var anim_speed = 12;
 
 // Change directions
-if(moveX < 0)		{ y_frame = 9;  }
-else if (moveX > 0)	{ y_frame = 11; }
-else if (moveY < 0)	{ y_frame = 8;  }
-else if (moveY > 0)	{ y_frame = 10; }
-else				{ x_frame = 0;  }
+if (game.pause) {
+	x_frame = 0;
+} else if (input_left) {  // Left
+	y_frame = 9;
+} else if (input_right) {  // Right
+	y_frame = 11;
+} else if (input_down) {  // Down
+	y_frame = 10;
+} else if (input_up) {  // Up
+	y_frame = 8;
+} else {  // Idle
+	x_frame = 0;
+}
 
 // Offset for Collision
 var xx = x-x_offset;
@@ -37,3 +45,5 @@ draw_sprite_part(spr_shirt,0,floor(x_frame)*frame_size,y_frame*frame_size,frame_
 
 // Draw Hair
 draw_sprite_part(spr_hair,0,floor(x_frame)*frame_size,y_frame*frame_size,frame_size,frame_size,xx,yy);
+
+depth = 1000 - y;

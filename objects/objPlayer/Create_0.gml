@@ -22,6 +22,8 @@ spr_feet =spr_Feet_Female_1;
 horMiddle = -1;
 verMiddle = -1;
 
+facing = 90;
+
 myTextbox = noone;
 dialogue = "Dialogue not set.";
 pause = false;
