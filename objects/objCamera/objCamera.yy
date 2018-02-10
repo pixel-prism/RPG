@@ -2,7 +2,7 @@
     "id": "ea3cb485-4571-41e8-ba7b-33573fc80d0f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "camera",
+    "name": "objCamera",
     "eventList": [
         {
             "id": "ddc5c0c2-6323-4ee6-a413-c28d924c0157",
@@ -44,5 +44,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

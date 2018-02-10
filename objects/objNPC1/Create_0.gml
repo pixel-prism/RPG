@@ -12,6 +12,8 @@ spr_feet =spr_Feet_Male_1;
 
 // Dialogue
 
-dialogue = "What's shakin, bacon?";
-//dialogue[1] = "I'm tired.";
-//dialogue[2] = "Do you know what time it is?";
+dialogue[0] = "What's shakin, bacon?";
+dialogue[1] = "I'm tired.";
+dialogue[2] = "Do you know what time it is?";
+
+variable = ds_list_create();

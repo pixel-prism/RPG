@@ -11,4 +11,6 @@ spr_legs =spr_Legs_Male_1;
 spr_feet =spr_Feet_Male_1;
 
 // Dialogue 
-dialogue = "I just saw a bird.";
+dialogue[0] = "Wanna go get high?";
+dialogue[1] = "... No?";
+dialogue[2] = "Fuck off, then.";

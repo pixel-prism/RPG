@@ -418,7 +418,7 @@
             "Key": "ea3cb485-4571-41e8-ba7b-33573fc80d0f",
             "Value": {
                 "id": "829a8eff-a717-4bb4-b2af-d09b66503737",
-                "resourcePath": "objects\\camera\\camera.yy",
+                "resourcePath": "objects\\objCamera\\objCamera.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "f6444766-a77e-4955-bba9-99273ada427c",
+            "Value": {
+                "id": "10c97c33-6fe8-47d4-8f25-ab8e2c4b74be",
+                "resourcePath": "scripts\\scr_textbox\\scr_textbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f81b0dc1-0ead-4b97-850a-c342afd04839",
             "Value": {
                 "id": "7edb8eb5-c12a-4bd3-aa05-6c96460dfe57",
@@ -464,7 +472,7 @@
         }
     ],
     "script_order": [
-        
+        "f6444766-a77e-4955-bba9-99273ada427c"
     ],
     "tutorial": ""
 }
